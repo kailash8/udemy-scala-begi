@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-scala-begi.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-scala-begi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-scala-begi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-scala-begi-build.iml" />
     </modules>
   </component>
 </project>
