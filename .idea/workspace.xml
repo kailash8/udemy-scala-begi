@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78ca0b-27e9-4def-9fc7-46738228838f" name="Changes" comment="function and recursion is added">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/CBNvsCBV.scala" afterDir="false" />
+    <list default="true" id="ff78ca0b-27e9-4def-9fc7-46738228838f" name="Changes" comment="CBNvsCBV and recursion is added">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/DefaultArgs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/StringOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Recursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Recursion.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/scala/lectures/part1basics/Functions.scala" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +69,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CBNvsCBV">
+  <component name="RunManager" selected="Application.OOBasics">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
       <module name="udemy-scala-begi" />
@@ -81,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Functions" />
+    <configuration name="DefaultArgs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.DefaultArgs" />
       <module name="udemy-scala-begi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+      <module name="udemy-scala-begi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.StringOps" />
+      <module name="udemy-scala-begi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOBasics" />
+        <item itemvalue="Application.StringOps" />
+        <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654601080931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CBNvsCBV and recursion is added">
+      <created>1654604244854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654604244854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +209,8 @@
     <MESSAGE value="Created code for udemy rock jvm basics" />
     <MESSAGE value="craeted valuesVreablesTypes Object" />
     <MESSAGE value="function and recursion is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="function and recursion is added" />
+    <MESSAGE value="CBNvsCBV and recursion is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CBNvsCBV and recursion is added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
